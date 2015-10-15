@@ -4,7 +4,8 @@
     id              ="com.example.TAB"
     android:versionCode="1"
     android:versionName="1.0" >
-    
+	
+    <preference name="phonegap-version" value="3.5.0" />
 	<name>Player1</name>
 	
     <uses-sdk
@@ -17,8 +18,6 @@
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> 
 	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-	<uses-permission android:name="android.permission.BLUETOOTH"/>
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
     
 	
     <application
